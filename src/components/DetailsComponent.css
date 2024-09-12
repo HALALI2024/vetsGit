@@ -1,0 +1,46 @@
+.details-component {
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.title{
+    font-weight: 200;
+    text-decoration: underline;
+    position: relative;
+    bottom: 50px;
+}
+
+.time{
+    position: relative;
+    left: 460px;
+    bottom: 146px;
+}
+
+.list{
+    position: relative;
+    bottom: 50px;
+}
+
+.appointment-info {
+    margin-bottom: 20px;
+}
+
+.scanned-livestock{
+    position: relative;
+    bottom: 50px;
+}
+
+.scanned-livestock ul {
+    list-style: decimal;
+    padding: 0;
+    columns: 3; /* Create a multi-column list */
+}
+
+.approve-button {
+    background-color: #355d5f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}

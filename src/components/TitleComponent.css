@@ -1,0 +1,31 @@
+.title-component {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.back-button {
+    position: relative;
+    top: 95px;
+    right: 420px;
+    background: none;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.title-component {
+    position: relative;
+    right: 400px;
+    font-size: 25px;
+}
+.h3Style {
+    position: relative;
+    font-weight: 80;
+    bottom: 50px;  
+}
+
+.titleStyle{
+    font-weight: 80;
+}

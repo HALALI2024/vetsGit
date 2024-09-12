@@ -1,0 +1,52 @@
+.schedule-container {
+    /* Container for the schedule section */
+    position: absolute;
+    right: 90px;
+    margin: 20px 30px;
+    padding: 20px;
+    background-color: #B4B8AB;
+    border-radius: 30px;
+    height: 600px;
+    width: 80%
+}
+
+.schedule-container h2 {
+    /* Styling for the schedule heading */
+    font-size: 2.4rem;
+    font-weight: 400;
+    color: #333;
+    margin-bottom: 15px;
+    margin-left: 10;
+}
+
+.schedule-container table {
+    /* Full width table with border spacing */
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.schedule-container th,
+.schedule-container td {
+    /* Cell padding and borders */
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #F4F9E9;
+}
+
+.schedule-container th {
+    /* Styling for table headers */
+    background-color: #B4B8AB;
+    font-weight: bold;
+    color: #333;
+}
+
+.schedule-container td {
+    /* Styling for table data cells */
+    background-color: #B4B8AB;
+    color: #333;
+}
+
+.schedule-container tr:nth-child(even) td {
+    /* Alternate row background color */
+    background-color: #B4B8AB;
+}

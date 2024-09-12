@@ -1,0 +1,30 @@
+.appointment-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    height: 100vh;
+}
+
+.content {
+    position: relative;
+    right: 300px;
+    bottom: 50px;
+    width: 40%;
+    background-color: #B4B8AB;
+    border-radius: 30px;
+    padding: 30px;
+}
+
+.complete-visit-button {
+    position: absolute;
+    left: 700px;
+    bottom: 1px;
+    margin-top: 20px;
+    background-color: #284B63;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    cursor: pointer;
+}

@@ -1,0 +1,27 @@
+.dashboard {
+    /* Main dashboard container */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #EEF0EB;
+    min-height: 200vh;
+}
+
+.dashboard-content {
+    /* Layout for the content below the header */
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 20px;
+}
+
+.appointment-section {
+    /* Styling for the appointment cards section */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+    margin-right: 20px;
+}

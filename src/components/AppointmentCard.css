@@ -1,0 +1,70 @@
+.appointment-card {
+    /* Flexbox layout for the appointment card */
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 40px;
+    background-color: #b4b8abda;
+    border-radius: 30px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+    top: 700px;
+    width: 160%;
+    height: 150px;
+    padding-bottom: 0px;
+}
+
+.appointment-card img {
+    /* Fixed size for the image */
+    width: 120px;
+    height: 120px;
+    border-radius: 10%;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.appointment-details {
+    /* Flexbox for appointment details */
+    flex: 1;
+
+}
+
+.appointment-details li {
+    /* General styling for appointment text */
+    margin: 4px 0;
+    color: #444;
+    font-size: 0.9rem;
+}
+
+.appointment-details p {
+    /* General styling for appointment text */
+    margin: 4px 0;
+    color: #444;
+    font-size: 0.9rem;
+}
+
+.appointment-details p strong {
+    /* Highlight the appointment title */
+    font-size: 16px;
+    color: #2C2543;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.time2{
+    position: relative;
+    left: 500px;
+    bottom: 120px;
+}
+
+.app-type-link {
+    color: #2C2543;
+    text-decoration: none;
+}
+
+.app-type-link:hover {
+    text-decoration: underline;
+}
+

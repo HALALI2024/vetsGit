@@ -1,0 +1,40 @@
+.calendar {
+    /* Calendar container styling */
+    position: relative;
+    left: 450px;
+    bottom: 120px;
+    margin: 10px 0;
+    padding: 20px;
+    padding-bottom: 90px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.calendar h3 {
+    /* Calendar heading */
+    font-size: 1.3rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.calendar ul {
+    /* Remove default list styling */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.calendar li {
+    /* List item padding and spacing */
+    padding: 8px 0;
+    border-bottom: 1px solid #ccc;
+    font-size: 1rem;
+    color: #555;
+}
+
+.calendar li:last-child {
+    /* Remove bottom border for the last item */
+    border-bottom: none;
+}
